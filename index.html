@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/critical.css"/>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+<div class="dashboard-page">
+    <div class="container">
+        <div class="sidebar">
+            <a href="#" class="sidebar__logo">
+                <img src="./img/logo.svg" alt="logo"/>
+                <div class="sidebar__logo-v">v.01</div>
+            </a>
+            <ul class="sidebar__menu">
+                <li class="sidebar__item">
+                    <a href="#">
+                        <img src="./img/icon-menu1.svg" alt="icon-menu"/>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">
+                        <img src="./img/icon-menu2.svg" alt="icon-menu"/>
+                        <p>Product</p>
+                        <img src="./img/menu-arrow.svg" alt="menu-arrow"/>
+                    </a>
+                </li>
+                <li class="sidebar__item sidebar__item-active">
+                    <a href="#">
+                        <img src="./img/icon-menu3.svg" alt="icon-menu"/>
+                        <p>Customers</p>
+                        <img src="./img/menu-arrow.svg" alt="menu-arrow"/>
+                    </a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">
+                        <img src="./img/icon-menu4.svg" alt="icon-menu"/>
+                        <p>Income</p>
+                        <img src="./img/menu-arrow.svg" alt="menu-arrow"/>
+                    </a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">
+                        <img src="./img/icon-menu5.svg" alt="icon-menu"/>
+                        <p>Promote</p>
+                        <img src="./img/menu-arrow.svg" alt="menu-arrow"/>
+                    </a>
+                </li>
+                <li class="sidebar__item">
+                    <a href="#">
+                        <img src="./img/icon-menu6.svg" alt="icon-menu"/>
+                        <p>Help</p>
+                        <img src="./img/menu-arrow.svg" alt="menu-arrow"/>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar__user">
+                <img src="./img/user-name.svg" alt="user-logo"/>
+                <div class="sidebar__user-name">
+                    <h4>Evano</h4>
+                    <p>Project Manager</p>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-table">
+            <h2>Hello Evano 👋🏼,</h2>
+            <div class="dashboard-table__wrapper">
+                <div class="dashboard-table__header">
+                    <div class="dashboard-table__text">
+                        <h3>All Customers</h3>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="dashboard-table__search">
+                        <img src="./img/search-icon.svg" alt="search"/>
+                        <input type="text" name="search" placeholder="Search"/>
+                    </div>
+                </div>
+                <div class="dashboard-table__customers">
+                    <table class="table" id="customers">
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Company</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_active">Active</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_inactive">Inactive</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_inactive">Inactive</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_inactive">Inactive</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_active">Active</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_active">Active</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_active">Active</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <div class="status-badge status-badge_inactive">Inactive</div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="table-pagination">
+                        <p>Showing data 1 to 8 of  256K entries</p>
+                        <div class="table-pagination__numbers">
+                            <a href="#" class="table-pagination__page table-pagination__prev"><</a>
+                            <a href="#" class="table-pagination__page table-pagination_current">1</a>
+                            <a href="#" class="table-pagination__page">2</a>
+                            <a href="#" class="table-pagination__page">3</a>
+                            <a href="#" class="table-pagination__page">4</a>
+                            <a href="#" class="table-pagination__page table-pagination_more">...</a>
+                            <a href="#" class="table-pagination__page">40</a>
+                            <a href="#" class="table-pagination__page table-pagination__next">></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
